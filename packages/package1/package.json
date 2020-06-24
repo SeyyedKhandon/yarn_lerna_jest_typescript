@@ -14,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/issues"
   },
-  "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme"
+  "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme",
+  "keywords": [
+    "yarn workspaces",
+    "lerna managing JavaScript projects with multiple packages",
+    "jest testing",
+    "unit test",
+    "multiple packages development"
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "name": "package-publishing-using-lerna-yarn-jest-typescript",
+  "description": "Package development and Publishing using lerna with yarn workspaces.",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -16,6 +17,13 @@
     "url": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/issues"
   },
   "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme",
+  "keywords": [
+    "yarn workspaces",
+    "lerna managing JavaScript projects with multiple packages",
+    "jest testing",
+    "unit test",
+    "multiple packages development"
+  ],
   "devDependencies": {
     "husky": "^4.2.5",
     "jest": "^26.1.0",
