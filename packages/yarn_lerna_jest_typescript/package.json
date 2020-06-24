@@ -1,0 +1,25 @@
+{
+  "name": "yarn_lerna_jest_typescript",
+  "version": "0.1.8",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme",
+  "dependencies": {
+    "@yarn_lerna_jest_typescript/package1": "^0.1.4",
+    "@yarn_lerna_jest_typescript/package2": "^0.1.6"
+  }
+}

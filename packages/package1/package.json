@@ -1,0 +1,18 @@
+{
+  "name": "@yarn_lerna_jest_typescript/package1",
+  "version": "0.1.4",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme"
+}

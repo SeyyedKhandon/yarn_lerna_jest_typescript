@@ -1,0 +1,25 @@
+{
+  "name": "package-publishing-using-lerna-yarn-jest-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "jest": "^26.1.0",
+    "lerna": "^3.22.1",
+    "prettier": "2.0.5"
+  }
+}
