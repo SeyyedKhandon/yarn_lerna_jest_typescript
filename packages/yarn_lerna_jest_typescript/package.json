@@ -1,7 +1,7 @@
 {
   "name": "yarn_lerna_jest_typescript",
   "description": "Package development and Publishing using lerna with yarn workspaces.",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,7 @@
     "multiple packages development"
   ],
   "dependencies": {
-    "@yarn_lerna_jest_typescript/package1": "^0.1.6",
-    "@yarn_lerna_jest_typescript/package2": "^0.1.8"
+    "@yarn_lerna_jest_typescript/package1": "^0.1.7",
+    "@yarn_lerna_jest_typescript/package2": "^0.1.9"
   }
 }
