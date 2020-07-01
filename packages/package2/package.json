@@ -9,6 +9,9 @@
     "build": "tsc",
     "test": "jest"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "publishConfig": {
     "access": "public"
   },

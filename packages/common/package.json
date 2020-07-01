@@ -8,6 +8,9 @@
     "start": "ts-node ./src/index.ts",
     "build": "tsc"
   },
+  "files": [
+    "lib/**/*"
+  ],
   "publishConfig": {
     "access": "public"
   },
