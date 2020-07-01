@@ -26,5 +26,8 @@
     "jest testing",
     "unit test",
     "multiple packages development"
-  ]
+  ],
+  "dependencies": {
+    "@yarn_lerna_jest_typescript/common": "^0.1.1"
+  }
 }
