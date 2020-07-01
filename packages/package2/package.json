@@ -1,7 +1,8 @@
 {
   "name": "@yarn_lerna_jest_typescript/package2",
   "version": "0.1.7",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "scripts": {
     "test": "jest"

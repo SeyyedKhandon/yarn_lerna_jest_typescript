@@ -1,9 +1,9 @@
 {
-  "name": "@yarn_lerna_jest_typescript/package1",
-  "version": "0.1.5",
+  "name": "@yarn_lerna_jest_typescript/common",
+  "version": "0.1.0",
+  "license": "MIT",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "license": "MIT",
   "scripts": {
     "start": "ts-node index.ts",
     "build": "tsc"
