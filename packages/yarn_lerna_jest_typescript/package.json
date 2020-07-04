@@ -1,7 +1,7 @@
 {
   "name": "yarn_lerna_jest_typescript",
   "description": "Package development and Publishing using lerna with yarn workspaces.",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -33,8 +33,8 @@
     "multiple packages development"
   ],
   "dependencies": {
-    "@yarn_lerna_jest_typescript/common": "^0.1.3",
-    "@yarn_lerna_jest_typescript/package1": "^0.1.9",
-    "@yarn_lerna_jest_typescript/package2": "^0.1.11"
+    "@yarn_lerna_jest_typescript/common": "^0.1.4",
+    "@yarn_lerna_jest_typescript/package1": "^0.1.10",
+    "@yarn_lerna_jest_typescript/package2": "^0.1.12"
   }
 }
