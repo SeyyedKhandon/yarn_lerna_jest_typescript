@@ -1,6 +1,6 @@
 {
   "name": "@yarn_lerna_jest_typescript/package2",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -32,7 +32,7 @@
     "multiple packages development"
   ],
   "dependencies": {
-    "@yarn_lerna_jest_typescript/common": "^0.2.3",
-    "@yarn_lerna_jest_typescript/package1": "^0.2.3"
+    "@yarn_lerna_jest_typescript/common": "^0.2.4",
+    "@yarn_lerna_jest_typescript/package1": "^0.2.4"
   }
 }
