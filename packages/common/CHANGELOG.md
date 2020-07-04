@@ -1,6 +1,30 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.3.1](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.3.0...@yarn_lerna_jest_typescript/common@0.3.1) (2020-07-04)
+
+
+### Bug Fixes
+
+* update common index.js.map ([a390a8b](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/commit/a390a8b3cc7ad5c68ca2e1d6c19fadc148756d38))
+
+
+
+
+
+# [0.3.0](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.2.5...@yarn_lerna_jest_typescript/common@0.3.0) (2020-07-04)
+
+
+### Features
+
+* addBy20 in common ([fee35fe](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/commit/fee35fe152598cbaeb9d4a22f932e57a1f3bf7a2))
+
+
+
+
+
 
 # [0.2.0](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.1.4...@yarn_lerna_jest_typescript/common@0.2.0) (2020-07-04)
 
