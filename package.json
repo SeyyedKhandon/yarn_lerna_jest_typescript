@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "cross-env HUSKY_BYPASS=true lerna publish"
+    "release": "cross-env HUSKY_BYPASS=true lerna publish",
+    "release:conv": "cross-env HUSKY_BYPASS=true lerna publish --conventional-commits --yes"
   },
   "husky": {
     "hooks": {
