@@ -14,7 +14,12 @@ Package development and Publishing using lerna with yarn workspaces
 - [x] Auto ChangeLog
 - [x] Husky (Husky can prevent bad git commit, git push and more 🐶 woof!)
 
+#####Todo List:
 
+- [x] tsconfig.build.json
+- [x] jest.config.js
+- [x] scss(use-follow instead of @import) 
+- [x] config .npmrc for Verdaccio
 
 
 
