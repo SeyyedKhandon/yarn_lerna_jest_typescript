@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.3.1...@yarn_lerna_jest_typescript/common@0.4.0) (2020-07-04)
+
+
+### Features
+
+* add prerelease command to yarn release, and update common ([aed21cc](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/commit/aed21ccc8880d3bddf4530defda72e064a897b63))
+
+
+
+
+
 ## [0.3.1](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.3.0...@yarn_lerna_jest_typescript/common@0.3.1) (2020-07-04)
 
 
