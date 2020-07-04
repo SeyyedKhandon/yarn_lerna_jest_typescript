@@ -16,10 +16,10 @@ Package development and Publishing using lerna with yarn workspaces
 
 #####Todo List:
 
-- [x] tsconfig.build.json
-- [x] jest.config.js
-- [x] scss(use-follow instead of @import) 
-- [x] config .npmrc for Verdaccio
+- [ ] tsconfig.build.json
+- [ ] jest.config.js
+- [ ] scss(use-follow instead of @import) 
+- [ ] config .npmrc for Verdaccio
 
 
 
