@@ -1,1 +1,1 @@
-export declare const add: (a: number) => number;
+export declare const add: (a: number, b: number) => number;

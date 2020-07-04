@@ -7,8 +7,4 @@ export default {
   myfunc,
   commonFunction2
 };
-export {
-  add,
-  myfunc,
-  commonFunction2
-};
+export { add, myfunc, commonFunction2 };
