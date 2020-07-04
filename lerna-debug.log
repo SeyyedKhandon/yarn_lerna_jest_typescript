@@ -1,0 +1,20 @@
+76 error Error: Command failed: git commit -F C:\Users\User\AppData\Local\Temp\0fded2f0-d9c2-4736-98a1-a997d099c482\lerna-commit.txt
+76 error husky > commit-msg (node v12.14.1)
+76 error ⧗   input: Publish
+76 error
+76 error  - @yarn_lerna_jest_typescript/common@0.2.0
+76 error  - @yarn_lerna_jest_typescript/package1@0.2.0
+76 error  - @yarn_lerna_jest_typescript/package2@0.1.13
+76 error  - yarn_lerna_jest_typescript@0.2.0
+76 error ✖   subject may not be empty [subject-empty]
+76 error ✖   type may not be empty [type-empty]
+76 error
+76 error ✖   found 2 problems, 0 warnings
+76 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+76 error
+76 error husky > commit-msg hook failed (add --no-verify to bypass)
+76 error error Command failed with exit code 1.
+76 error
+76 error     at makeError (C:\Projects\my_github\monorepos-templates\yarn_lerna_jest_typescript\node_modules\execa\index.js:174:9)
+76 error     at C:\Projects\my_github\monorepos-templates\yarn_lerna_jest_typescript\node_modules\execa\index.js:278:16
+76 error     at processTicksAndRejections (internal/process/task_queues.js:94:5)
