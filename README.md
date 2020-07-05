@@ -23,7 +23,7 @@ Package development and Publishing using lerna with yarn workspaces
 
 
 
-#How to use this:
+###How to use this:
 
 **Readme.md:**
 
@@ -83,14 +83,14 @@ mypkg.add(10,12);
 
 consider that you should change all `yarn_lerna_jest_typescript` occurrences to what-ever scope you like, e.g `my_math_library`, so in this mini-tut, we will use my_math_library here as convention through this mini-tuts. you should see below structure, i have change some names to red circles which is:
 
-![image](/uploads/5a2206fc29fa52cca048c7dfe544ff76/image.png)
+![](tuts_images/1.png)
 
 **Note 1:** before going deep, i should tell you, we have used husky for bad git commit prevention(read it here https://www.conventionalcommits.org/en/v1.0.0/)
 
 **Note 2:** we use tsconfig.json global here which has common configuration for all packages, and each package has its own which extend this global tsconfig for its own need.(for example to set their root dir to be a`src` folder in their own folder like below:)
 
 
-![image](/uploads/aebc110154912e09df2ebddf28c454c7/image.png)
+![](tuts_images/2.png)
 
 
 - Step2. `yarn install`
@@ -98,9 +98,9 @@ consider that you should change all `yarn_lerna_jest_typescript` occurrences to 
 
 I created 3 package `add,mul, my_math_library which contains two`:
 
-![image](/uploads/2aed675a4f431db360b0d725ce84c367/image.png)
+![](tuts_images/3.png)
 
-![image](/uploads/31f406d4fedd866bfac4c73160dcba93/image.png)
+![](tuts_images/4.png)
 
 **Note:** Default Package which has the name of the scope(my_math_library), is a simple code which includes all sub-packages which we want to access from 1 install `npm i my_math_library` or `yarn add my_math_library`  to get access like this:
 
@@ -120,14 +120,13 @@ For this need we should install `add,mull` as dependencies for it, which we will
 
 ` lerna add @my_math_library/add --scope=my_math_library`
 
-![image](/uploads/fb1d1e78cbdbfa69e5cdf047a4b20412/image.png)
+![](tuts_images/5.png)
 
 Now we can run all packages unit tests together using lerna:
 
 `lerna run test --stream`
 
-![image](/uploads/718bd2c20fae209bf64ea330ac2fc9db/image.png)
-
+![](tuts_images/6.png)
 
 - Step4: you have to create a github repo
     - remove `.git` folder
@@ -141,8 +140,25 @@ Now we can run all packages unit tests together using lerna:
     - create org by the name of `my_math_library`, because you have used `my_math_library` for scope
 - Step6: `yarn release:conv`
 
-**Note:** if you want to push to your local package manager like verdaccio, edit `.npmrc`
-
 this is an example which used this step by step guide to make a new monorepo for a math library:
 
 https://github.com/SeyyedKhandon/my_math_library
+
+
+**Note** 
+Q1: Can i push my packages to local package management like verdaccio?
+
+A1: Yes, you can, you should add the registery address to `.npmrc` file.
+
+Q2: can i use it, if i have just one package? for example something like https://www.npmjs.com/package/simple-browser-fingerprint
+
+A2: Yes, you can. your `packages/` folder will have just one package with your desired name as 
+you can see in the below picture:
+
+https://www.npmjs.com/package/simple-browser-fingerprint-based-on-monorepo
+
+![](tuts_images/7.png)
+
+
+
+ 
