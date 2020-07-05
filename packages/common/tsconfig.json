@@ -5,7 +5,7 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "rootDir": "./src/",
-    "outDir": "lib",
+    "outDir": "dist",
     "declaration": true
   }
 }
