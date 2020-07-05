@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.5.0...@yarn_lerna_jest_typescript/common@0.5.1) (2020-07-05)
+
+
+### Bug Fixes
+
+* config style code based on prettier, set eslint code style to off ([517e782](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/commit/517e7828932adae4e7672355b83697d3f1028dc8))
+
+
+
+
+
 # [0.5.0](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/@yarn_lerna_jest_typescript/common@0.4.0...@yarn_lerna_jest_typescript/common@0.5.0) (2020-07-05)
 
 
