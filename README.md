@@ -143,5 +143,6 @@ Now we can run all packages unit tests together using lerna:
 
 **Note:** if you want to push to your local package manager like verdaccio, edit `.npmrc`
 
+this is an example which used this step by step guide to make a new monorepo for a math library:
 
-[my_math_library.zip](/uploads/b050df43d0ead69afe26f40d25dca2e9/my_math_library.zip)
+https://github.com/SeyyedKhandon/my_math_library
