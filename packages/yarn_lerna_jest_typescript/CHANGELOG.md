@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/yarn_lerna_jest_typescript@0.3.0...yarn_lerna_jest_typescript@0.3.1) (2020-07-05)
+
+
+### Bug Fixes
+
+* config style code based on prettier, set eslint code style to off ([517e782](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/commit/517e7828932adae4e7672355b83697d3f1028dc8))
+
+
+
+
+
+# [0.3.0](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/yarn_lerna_jest_typescript@0.2.9...yarn_lerna_jest_typescript@0.3.0) (2020-07-05)
+
+
+### Features
+
+* add typescript support to jest ([61a2643](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/commit/61a264314bbc3bd226a9ff70b3dc72ff56fe3527))
+
+
+
+
+
 ## [0.2.9](https://github.com/SeyyedKhandon/yarn_lerna_jest_typescript/compare/yarn_lerna_jest_typescript@0.2.8...yarn_lerna_jest_typescript@0.2.9) (2020-07-04)
 
 **Note:** Version bump only for package yarn_lerna_jest_typescript

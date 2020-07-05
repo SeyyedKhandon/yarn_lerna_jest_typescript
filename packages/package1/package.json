@@ -1,15 +1,16 @@
 {
   "name": "@yarn_lerna_jest_typescript/package1",
-  "version": "0.2.8",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "version": "0.3.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest --config ../../jestconfig.json"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "publishConfig": {
     "access": "public"
@@ -31,6 +32,6 @@
     "multiple packages development"
   ],
   "dependencies": {
-    "@yarn_lerna_jest_typescript/common": "^0.4.0"
+    "@yarn_lerna_jest_typescript/common": "^0.5.1"
   }
 }

@@ -1,15 +1,15 @@
 {
   "name": "@yarn_lerna_jest_typescript/common",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "ts-node ./src/index.ts",
     "build": "tsc"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "publishConfig": {
     "access": "public"
