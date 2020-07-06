@@ -8,7 +8,7 @@ Package development and Publishing using lerna with yarn workspaces
 - [x] Lerna version manager
 - [x] Yarn Workspaces
 - [x] Typescript
-- [x] Eslint(airbnb/browser)
+- [x] Eslint(browser/node)
 - [x] Prettier
 - [x] Jest unit test
 - [x] Auto ChangeLog
@@ -16,6 +16,7 @@ Package development and Publishing using lerna with yarn workspaces
 
 #####Todo List:
 
+- [ ] Bootstrapping the boilerplate
 - [ ] tsconfig.build.json
 - [ ] jest.config.js
 - [ ] scss(use-follow instead of @import) 
@@ -160,5 +161,8 @@ https://www.npmjs.com/package/simple-browser-fingerprint-based-on-monorepo
 ![](tuts_images/7.png)
 
 
+Q3: The eslint has been set for browser how should i change it to node?
 
+A3: run `npx eslint --init`  again for choosing the configurations.
+     Consider that you should keep prettier configs to this newly generated eslint.json
  
